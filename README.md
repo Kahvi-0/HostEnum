@@ -9,3 +9,9 @@ powershell -ep bypass
 ```
 .\Search.ps1
 ```
+
+Sort after 
+
+```
+cat WinPwds.txt | sort | uniq > WinPwds-Sorted.txt
+```
